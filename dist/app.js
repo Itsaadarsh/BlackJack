@@ -19,7 +19,7 @@ function hit() {
   x = ranCardGen();
   let plyDiv = document.querySelector('#plyCards');
   let plyCardImg = document.createElement('img');
-  plyCardImg.src = '../cards/' + x + '.png';
+  plyCardImg.src = 'cards/' + x + '.png';
   plyDiv.appendChild(plyCardImg);
   if (x[0] === 'A') {
     if (plySum + 11 <= 21) {
@@ -50,7 +50,7 @@ function deal() {
   x = ranCardGen();
   let dealBtnDiv = document.querySelector('#plyCards');
   let dealBtnCardImg = document.createElement('img');
-  dealBtnCardImg.src = '../cards/' + x + '.png';
+  dealBtnCardImg.src = 'cards/' + x + '.png';
   dealBtnDiv.appendChild(dealBtnCardImg);
   if (x[0] === 'A') {
     if (plySum + 11 <= 21) {
@@ -77,7 +77,7 @@ function stand() {
       x = ranCardGen();
       let dealDiv = document.querySelector('#dealerCards');
       let dealCardImg = document.createElement('img');
-      dealCardImg.src = '../cards/' + x + '.png';
+      dealCardImg.src = 'cards/' + x + '.png';
       dealDiv.appendChild(dealCardImg);
       if (x[0] === 'A') {
         if (dealSum + 11 <= 21) {
