@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>BlackJack</title>
+  <link rel="stylesheet" href="mediaQ.css">
+  <link rel="icon" href="../cards/images/favicon.ico">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+  <style media="screen">
+    body {
+      font-family: 'Krona One', sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <div id="dealHand">
+      <h2>DEALER'S HAND : <span id="dealHandResult">0</span></h2>
+    </div>
+    <div id="plyHand">
+      <h2>PLAYER'S HAND : <span id="plyHandResult">0</span></h2>
+    </div>
+    <div id="chipCount">
+      <img src="../cards/images/chips.png" width="100px">
+      <span id="chipCountResult">$500</span>
+      <span id="noChipMsg"></span>
+    </div>
+    <div id="BJlogo">
+      <img src="../cards/images/bjLogo.png" width="150px">
+    </div>
+    <div id="dealBtn">
+      <button type="button" class="btn btn-success" id="dealbutton"><b>DEAL</b></button>
+    </div>
+    <div id="hitBtn">
+      <button type="button" class="btn btn-dark" id="hitbutton"><b>HIT</b></button>
+    </div>
+    <div id="standBtn">
+      <button type="button" class="btn btn-danger" id="standbutton"><b>STAND</b></button>
+    </div>
+    <div id="dealerCards" class="Cards"></div>
+    <div id="plyCards" class="Cards"></div>
+    <div id="bust"></div>
+    <div id="dev">
+      <h1 class="devName">Developer : <a href="https://www.instagram.com/itsaadarsh/" target="_blank" style="color:red">@itsaadarsh</a></h1>
+    </div>
+  </div>
+  <div id='mediaMsg'>
+    <h1>THIS GAME COULD ONLY BE PLAYED IN <span style="color:red">LANDSCAPE </span>MODE.*TILT YOUR DEVICE*</h1>
+  </div>
+  <script src="app.js" defer></script>
+</body>
+
+</html>
