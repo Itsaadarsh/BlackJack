@@ -248,6 +248,10 @@ body {
   .devName {
     font-size: 1.1rem;
   }
+
+  #noChipMsg {
+    font-size: 0.8rem;
+  }
 }
 
 @media (orientation: portrait) and (max-width: 1000px){
