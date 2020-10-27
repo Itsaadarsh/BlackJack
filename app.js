@@ -42,7 +42,6 @@ function hit() {
     setTimeout(refresh, 6000);
   }
 }
-
 document.querySelector('#dealBtn button').addEventListener('click', deal);
 
 function deal() {
